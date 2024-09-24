@@ -157,6 +157,8 @@ GEM
     parser (3.3.5.0)
       ast (~> 2.4.1)
       racc
+    pg (1.5.8)
+    pg (1.5.8-x64-mingw-ucrt)
     psych (5.1.2)
       stringio
     public_suffix (6.0.1)
@@ -192,6 +194,8 @@ GEM
     rails-html-sanitizer (1.6.0)
       loofah (~> 2.21)
       nokogiri (~> 1.14)
+    rails-ujs (0.1.0)
+      railties (>= 3.1)
     railties (7.2.1)
       actionpack (= 7.2.1)
       activesupport (= 7.2.1)
@@ -299,8 +303,10 @@ DEPENDENCIES
   devise (~> 4.9, >= 4.9.4)
   importmap-rails
   jbuilder
+  pg (~> 1.5, >= 1.5.8)
   puma (>= 5.0)
   rails (~> 7.2.1)
+  rails-ujs
   rubocop-rails-omakase
   selenium-webdriver
   sprockets-rails
